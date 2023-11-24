@@ -1,0 +1,32 @@
+footer{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    padding: 43px 0 39px;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul{
+            display: flex;
+            gap: 56px;
+            align-items: center;
+
+            a{
+                font-size: 22px;
+                color: white;
+            }
+        }
+        span{
+            font-size: 14px;
+            color: white;
+            line-height: 30px;
+        }
+        .footer_links{
+            display: flex;
+            align-items: center;
+            gap: 43px;
+        }
+    }
+}

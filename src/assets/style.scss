@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'system-ui';
+}
+body{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    background: #678FF2;
+}
+.container{
+    max-width: 1530px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.btn{
+    color: white;
+    background: black;
+    border-radius: 90px;
+    cursor: pointer;
+}
+.main-title{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+.sect_descr{
+    color: white;
+    font-size: 22px;
+}
+
+@import url('../components/navbar.scss');
+@import url('./../components/main/mainPage.scss');
+@import url('./../components/main/mainHeader/mainHeader.scss');
+@import url('./../components/main/MainMain/mainMain.scss');
+@import url('./../components/main/footer/footer.scss');
+@import url('./../components/aboutPage/aboutPage.scss')
